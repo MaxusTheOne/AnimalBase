@@ -38,14 +38,10 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "Animal{" +
-                "id=" + id +
-                ", name='" + name + "'" +
+        return  " name='" + name + "'" +
                 ", age=" + age +
                 ", type='" + type + "'" +
                 ", description='" + description + "'" +
-                ", star=" + star +
-                ", winner=" + winner +
                 '}';
     }
     public int getId() {

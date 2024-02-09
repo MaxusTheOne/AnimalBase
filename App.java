@@ -5,6 +5,9 @@ public class App {
         System.out.println(animal);
 
     }
+    public App(){
+    }
+
     public static void main(String[] args) {
         new App().start();
     }

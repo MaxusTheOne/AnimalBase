@@ -1,4 +1,8 @@
-public class Animal {
+package animal.data;
+
+import org.jetbrains.annotations.NotNull;
+
+public class Animal implements Comparable<Animal> {
     private int id;
     private String name;
     private int age;
@@ -105,4 +109,9 @@ public class Animal {
 
     }
 
+
+    @Override
+    public int compareTo(@NotNull Animal o) {
+        return this.name.compareTo(o.name);
+    }
 }
